@@ -43,3 +43,13 @@ E:\Git Repos\113_2_C_Sharp_Tutorial\114_03_13\Program5_9\Program5_9\obj\x86\Debu
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_03_13\Program5_9\Program5_9\obj\x86\Debug\Program5_9.csproj.CoreCompileInputs.cache
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_03_13\Program5_9\Program5_9\obj\x86\Debug\Program5_9.exe
 E:\Git Repos\113_2_C_Sharp_Tutorial\114_03_13\Program5_9\Program5_9\obj\x86\Debug\Program5_9.pdb
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\bin\Debug\Program5_9.exe.config
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\bin\Debug\Program5_9.exe
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\bin\Debug\Program5_9.pdb
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.csproj.AssemblyReference.cache
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.Form1.resources
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.Properties.Resources.resources
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.csproj.GenerateResource.cache
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.csproj.CoreCompileInputs.cache
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.exe
+C:\Users\shu\Desktop\新增資料夾\113_2_C_Sharp\0313\Program5_9\Program5_9\obj\x86\Debug\Program5_9.pdb

@@ -81,6 +81,45 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6Die.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Die61.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
