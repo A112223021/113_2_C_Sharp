@@ -26,12 +26,35 @@ namespace Program6_10
 
         private void getCompChoice()
         {
-            
+            int n = rand.Next(1,4);
+            switch (n)
+            {
+                case 1:
+                    compChoice = "Rock";
+                    break;
+                case 2:
+                    compChoice = "paper";
+                    break;
+                case 3:
+                    compChoice = "Scissors";
+                    break;
+            }
         }
 
         private void showWinner()
         {
-            
+            if (myChoice == compChoice)
+                winner = "Draw";
+            else if (myChoice == "Rock" && compChoice == "Scissors")
+                winner = "You Win!";
+            else if (myChoice == "paper" && compChoice == "Rock")
+                winner = "You Wim!";
+            else if (myChoice == "Scissors" && compChoice == "paper")
+                winner = "You Win!";
+            else
+                winner = "You Lost";
+
+            label1.Text = "Computer:" + compChoice + " You:" + myChoice + "\n" + winner;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -55,6 +78,7 @@ namespace Program6_10
         private void button4_Click(object sender, EventArgs e)
         {
             getCompChoice();
+            label1.Text = "";
         }
 
 
