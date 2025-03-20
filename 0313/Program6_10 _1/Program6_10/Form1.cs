@@ -33,7 +33,7 @@ namespace Program6_10
                     compChoice = "Rock";
                     break;
                 case 2:
-                    compChoice = "paper";
+                    compChoice = "Paper";
                     break;
                 case 3:
                     compChoice = "Scissors";
@@ -47,7 +47,7 @@ namespace Program6_10
                 winner = "Draw";
             else if (myChoice == "Rock" && compChoice == "Scissors")
                 winner = "You Win!";
-            else if (myChoice == "paper" && compChoice == "Rock")
+            else if (myChoice == "Paper" && compChoice == "Rock")
                 winner = "You Wim!";
             else if (myChoice == "Scissors" && compChoice == "paper")
                 winner = "You Win!";
