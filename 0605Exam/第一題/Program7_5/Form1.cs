@@ -74,10 +74,10 @@ namespace Program7_5
 
             foreach (string winner in winnerList)
             {
+                // 跳過未舉辦年份
                 if (year == 1904 || year == 1994)
                 {
-                    year++; // 跳過未舉辦年份
-                    continue;
+                    year++;
                 }
 
                 if (winner == selectedTeam)

@@ -81,13 +81,26 @@ namespace Program7_5
                 return;
 
             string selectedTeam = listBox1.SelectedItem.ToString();
-            var team = teamDataList.FirstOrDefault(t => t.Name == selectedTeam);
+            List<int> winYears = new List<int>();
+            int year = 1903;
 
-            if (team == null)
-                return;
+            foreach (string winner in winnerList)
+            {
+                // 跳過未舉辦年份
+                if (year == 1904 || year == 1994)
+                {
+                    year++;
+                }
 
+                if (winner == selectedTeam)
+                {
+                    winYears.Add(year);
+                }
 
-            string result = $"🏆 {team.Name} 共獲得 {team.WinCount} 次冠軍。\n得冠年份：\n{string.Join("、", team.WinYears)}";
+                year++;
+            }
+            int count = winYears.Count;
+            string result = $"{selectedTeam} 自 1903～2009 年共奪冠 {count} 次。\n得冠年份：\n{string.Join("、", winYears)}";
             label1.Text = result;
         }
 

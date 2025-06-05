@@ -44,7 +44,7 @@ namespace Program7_5
             if (openFile.ShowDialog() == DialogResult.OK)
             {
                 winnerList = File.ReadAllLines(openFile.FileName).ToList();
-                BuildTeamDataList(); // 建立 teamDataList 結構
+                TeamDataList(); // 建立 teamDataList 結構
                 listBox1.Items.AddRange(teamDataList.Select(t => t.Name).ToArray()); // 將球隊名稱放入清單
             }
             else
@@ -60,13 +60,27 @@ namespace Program7_5
                 return;
 
             string selectedTeam = listBox1.SelectedItem.ToString();
-            TeamData team = teamDataList.FirstOrDefault(t => t.Name == selectedTeam);
+            List<int> winYears = new List<int>();
+            int year = 1903;
 
-            if (team == null)
-                return;
+            foreach (string winner in winnerList)
+            {
+                // 跳過未舉辦年份
+                if (year == 1904 || year == 1994)
+                {
+                    year++;
+                }
 
-            string message = $"🏆 {team.Name} 共獲得 {team.WinCount} 次世界大賽冠軍\n年份：\n{string.Join("、", team.WinYears)}";
-            label1.Text = message;
+                if (winner == selectedTeam)
+                {
+                    winYears.Add(year);
+                }
+
+                year++;
+            }
+            int count = winYears.Count;
+            string result = $"{selectedTeam} 自 1903～2009 年共奪冠 {count} 次。\n得冠年份：\n{string.Join("、", winYears)}";
+            label1.Text = result;
         }
         private void btnAddData_Click(object sender, EventArgs e)
         {
@@ -126,7 +140,7 @@ namespace Program7_5
 
             this.Close();
         }
-        private void BuildTeamDataList()
+        private void TeamDataList()
         {
             teamDataList.Clear();
             int year = 1903;
